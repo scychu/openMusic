@@ -5,8 +5,7 @@ const SongPayloadSchema = Joi.object({
 	year: Joi.number().required(),
 	performer: Joi.string().required(),
 	genre: Joi.string(),
-	// eslint-disable-next-line radix
-	duration: Joi.number().required(),
+	duration: Joi.number(),
 });
 
 module.exports = { SongPayloadSchema };
