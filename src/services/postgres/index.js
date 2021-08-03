@@ -9,4 +9,3 @@ const pool = new Pool({
 });
 
 module.exports = pool;
-// LOLOSKAN AKU KAKA T.T
